@@ -242,6 +242,16 @@ input[type="submit"] {
     border-radius: 4px;
     font-size: 20px;
     cursor: pointer;
+    input[type="radio"] {
+    width: auto;
+    margin: 10px 5px 10px 15px;
+}
+
+input[type="radio"] + label {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+}
 }
 
 button:hover,
